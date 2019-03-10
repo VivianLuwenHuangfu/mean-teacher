@@ -39,6 +39,8 @@ global_step = 0
 def main(context):
     global global_step
     global best_prec1
+    
+    print("Hello World")
 
     checkpoint_path = context.transient_dir
     training_log = context.create_train_log("training")
